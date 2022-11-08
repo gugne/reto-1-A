@@ -1,0 +1,105 @@
+html{
+    box-sizing: border-box;/*Evita que el with o padding no modifique el tamaño de los elementos*/
+    font-size: 62.5%; /*hack para rems 1rem=10px*/
+}
+
+*,*:before,*:after {
+    box-sizing: inherit;
+}
+body{
+    font-family: 'Roboto mono', monospace;
+    font-size: 1.6rem;
+    line-height: 2;
+}
+
+/*Globales*/
+.container{
+    max-width: 80rem;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 5rem;
+    margin-top: 2rem;
+}
+
+/*Biography*/
+.bio{
+    padding: 0 2rem;
+    text-align: center;
+}
+.bio img{
+    max-width: 20rem;
+    border-radius: 50%;
+    align-items: center;
+}
+
+/*Navbar*/
+
+.nav {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav a{
+    text-decoration: none;
+    margin: 0.5rem 0rem;
+    border: 1px solid #ffe6db;
+    background-color: #ffe6db;
+    color: #e86c36;
+    
+}
+
+.nav a:first-child{
+    border: 1px solid #d4e6ff;
+    background-color: #d4e6ff;
+    color: #0053cc;
+}
+
+nav a:hover{
+    background-color: #ffd4fb;
+}
+
+
+/*Footer*/
+
+.footer {
+    padding: 2rem 0rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.footer i{
+    color: #e14400;
+}
+
+
+/*Daktheme*/
+@media (prefers-color-scheme: dark) {
+    html{
+        background-color: #272727;
+        color: white;
+    }
+
+    .nav a{
+        border: 1px solid white;
+        background-color: #272727;
+        color: white;
+    }
+
+    .nav a:first-child{
+        border: 1px solid #ffc700;
+        background-color: #ffc700;
+        color: black;
+    }
+
+    .footer i{
+        color: #ffc700;
+    }
+    
+
+    
+} 
