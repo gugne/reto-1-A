@@ -9,4 +9,4 @@ https://www.figma.com/file/qPuDiLARc9Mh1woraX4EQf/Reto-HolaJuniors-%231---Opció
 
 ## Outcome:
 
-[Light-Mode](screenshots/Reto%20%231-EasiestLM.jpg)[Dark-Mode](screenshots/Reto%20%231-EasiestDM.jpg)
+![Light-Mode](screenshots/Reto%20%231-EasiestLM.jpg)![Dark-Mode](screenshots/Reto%20%231-EasiestDM.jpg)
