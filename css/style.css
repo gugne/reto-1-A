@@ -45,8 +45,8 @@ h1 {
 .nav a{
     text-decoration: none;
     margin: 0.5rem 0rem;
-    border: 1px solid #ffe6db;
-    background-color: #ffe6db;
+    border: 2px solid #EBEAED;
+    border-radius: 100px;
     color: #e86c36;
     
 }
@@ -55,10 +55,6 @@ h1 {
     border: 1px solid #d4e6ff;
     background-color: #d4e6ff;
     color: #0053cc;
-}
-
-nav a:hover{
-    background-color: #ffd4fb;
 }
 
 
